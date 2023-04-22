@@ -1,0 +1,2 @@
+1. We expect variable result to be initialized as a number(so that it can be the correct sum of num1 and num2), but it is initialized as a string because num1 and num2 are actually strings.
+2. I use Number method. let result=Number(num1)+Number(num2), so that result's dataType becomes a number when it is initialized. Also, we can have (num1 - 0) + (num2 - 0) to cast strings to numbers.
